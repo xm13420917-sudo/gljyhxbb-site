@@ -44,6 +44,10 @@ a{text-decoration:none;color:inherit}
 .pager{margin-top:18px;display:flex;justify-content:center;gap:8px}
 .pager span{min-width:34px;height:34px;border:1px solid var(--line);border-radius:8px;display:inline-flex;align-items:center;justify-content:center;background:#fff;color:#576378}
 .pager span.active{background:var(--brand);color:#fff;border-color:var(--brand)}
+.pager a{min-width:34px;height:34px;border:1px solid var(--line);border-radius:8px;display:inline-flex;align-items:center;justify-content:center;background:#fff;color:#576378;font-weight:700}
+.pager a:hover{border-color:var(--brand);color:var(--brand)}
+.pager a.active{background:var(--brand);color:#fff;border-color:var(--brand)}
+.link-card{cursor:pointer}
 .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .block{border:1px solid var(--line);border-radius:14px;background:#fff;padding:16px}
 .block h3{margin:0 0 9px;font-size:19px}
