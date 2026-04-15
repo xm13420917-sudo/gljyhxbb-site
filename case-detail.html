@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="成功案例详情页。" />
+    <title>案例详情 | 喜瑞辅助生殖</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrap header-inner">
+        <a class="logo" href="index.html"><span class="logo-dot"></span>喜瑞辅助生殖</a>
+        <nav class="nav">
+          <a href="index.html">首页</a>
+          <a href="project.html">服务项目</a>
+          <a class="active" href="case.html">成功案例</a>
+          <a href="knowledge.html">知识分享</a>
+          <a href="resources.html">资料库</a>
+          <a href="about.html">公司介绍</a>
+          <a href="contact.html">联系我们</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="banner">
+        <div class="inner">
+          <div class="en">Case Detail</div>
+          <h1 id="caseTitle">案例详情</h1>
+        </div>
+      </section>
+
+      <div class="breadcrumb">当前位置： <a href="index.html">首页</a> &gt; <a href="case.html">成功案例</a> &gt; 详情</div>
+
+      <section class="section">
+        <article class="block">
+          <div class="thumb" style="max-width:760px;margin-bottom:14px">
+            <img id="caseImage" src="" alt="案例封面" />
+            <span id="caseTag">CASE</span>
+          </div>
+          <h3 id="caseHeading">案例标题</h3>
+          <p id="caseSummary">案例说明</p>
+          <ul class="list" id="casePoints"></ul>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">© 2026 喜瑞辅助生殖服务中心 · gljyhxbb.site</div>
+    </footer>
+
+    <script>
+      const cases = {
+        1: {
+          tag: "CASE 01",
+          title: "如何将滞留东南亚的胚胎安全转运至格鲁吉亚 (Cryo-Rescue)",
+          image: "https://www.anvino.net/uploads/20260130/e2acd709d5a56fda8f9383e701af6ac3.jpg",
+          summary: "围绕胚胎跨境转运场景，重点在冷链、文件和接收节点的连续性管理。",
+          points: ["建立转运前材料清单", "协调冷链接运与实验室接收", "衔接后续移植窗口安排"]
+        },
+        2: {
+          tag: "CASE 02",
+          title: "海外华侨夫妇的胚胎救援：4枚冷冻囊胚跨国转运并一次成功着床",
+          image: "https://www.anvino.net/uploads/20260127/7a1562bc2991b9c23869d66e8f77d169.jpg",
+          summary: "在突发政策变化下完成跨国方案切换，确保周期连续推进。",
+          points: ["法务与医疗节点并行", "复苏与移植节奏协同", "降低跨境中断风险"]
+        },
+        3: {
+          tag: "CASE 03",
+          title: "38岁反复移植失败5次后，通过宫腔镜与免疫评估成功妊娠",
+          image: "https://www.anvino.net/uploads/20260127/75a7ca4aef381a6bb10e2122b2806459.jpg",
+          summary: "针对反复失败人群，通过系统化评估后重建移植策略。",
+          points: ["复盘历史周期数据", "补齐关键检查项", "按评估结果进行个体化调整"]
+        },
+        4: {
+          tag: "CASE 04",
+          title: "44岁 AMH 0.3：改良微刺激与 PGT-A 的组合应用",
+          image: "https://www.anvino.net/uploads/20260126/7c73c87beadebf3271994fe0ffe273d9.jpg",
+          summary: "高龄自卵场景下，以质量优先的策略推进治疗。",
+          points: ["分阶段设定促排目标", "强化实验室评估环节", "降低无效周期损耗"]
+        },
+        5: {
+          tag: "CASE 05",
+          title: "滞留海外胚胎跨国转运后在格鲁吉亚一次成功",
+          image: "https://www.anvino.net/uploads/20251206/570947be6a51fa59f971aef23fdaa84b.jpg",
+          summary: "重点展示跨境医疗节点和执行链路的稳定衔接。",
+          points: ["转运计划标准化", "到站后复核机制", "移植窗口快速衔接"]
+        },
+        6: {
+          tag: "CASE 06",
+          title: "上海39岁夫妇试管实录：延时甄选与 PGT-A 助孕",
+          image: "https://www.anvino.net/uploads/20251206/69d5d294f56b0ae1880fb6c2588a7503.jpg",
+          summary: "围绕高龄与胚胎筛选策略提升临床决策效率。",
+          points: ["制定分层筛选策略", "降低盲目移植风险", "提升周期可控性"]
+        },
+        7: {
+          tag: "CASE 07",
+          title: "42岁 DOR 自卵方案：微刺激与第三方协同路径",
+          image: "https://www.anvino.net/uploads/20251206/38848e469a047d8459ca80f3814afd14.jpg",
+          summary: "在卵巢储备下降场景下，强调阶段目标与协同执行。",
+          points: ["按周期反馈动态调整", "兼顾医疗和法务节点", "优化执行效率"]
+        },
+        8: {
+          tag: "CASE 08",
+          title: "42岁卵巢功能减退后的跨国辅助生殖案例分享",
+          image: "https://www.anvino.net/uploads/20260123/4ab2a17bfe7d889187ff61d8869b059d.jpg",
+          summary: "展示从前期评估到回国收尾的完整流程闭环。",
+          points: ["前期评估与路径确认", "中期执行与节点管理", "后期证件与回国支持"]
+        }
+      };
+
+      const id = Number(new URLSearchParams(window.location.search).get("id")) || 1;
+      const c = cases[id] || cases[1];
+      document.getElementById("caseTitle").textContent = c.title;
+      document.getElementById("caseHeading").textContent = c.title;
+      document.getElementById("caseSummary").textContent = c.summary;
+      document.getElementById("caseImage").src = c.image;
+      document.getElementById("caseTag").textContent = c.tag;
+      document.getElementById("casePoints").innerHTML = c.points.map(p => `<li>${p}</li>`).join("");
+    </script>
+  </body>
+</html>
