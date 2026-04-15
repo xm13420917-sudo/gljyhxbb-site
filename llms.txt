@@ -1,0 +1,25 @@
+# 喜瑞辅助生殖服务中心
+
+> 跨境辅助生殖服务站点，包含服务项目、成功案例、知识分享与资料库。
+
+## Canonical Website
+- http://gljyhxbb.site/
+
+## Key Pages
+- [公司介绍 | 喜瑞辅助生殖](http://gljyhxbb.site/about.html) - 喜瑞辅助生殖公司介绍。
+- [案例详情 | 喜瑞辅助生殖](http://gljyhxbb.site/case-detail.html) - 成功案例详情页。
+- [成功案例 | 喜瑞辅助生殖](http://gljyhxbb.site/case-page-2.html) - 辅助生殖临床成功案例展示页面。
+- [成功案例 | 喜瑞辅助生殖](http://gljyhxbb.site/case.html) - 辅助生殖临床成功案例展示页面。
+- [联系我们 | 喜瑞辅助生殖](http://gljyhxbb.site/contact.html) - 喜瑞辅助生殖联系方式。
+- [首页 | 喜瑞辅助生殖](http://gljyhxbb.site/) - 喜瑞辅助生殖官方网站首页。
+- [知识分享 | 喜瑞辅助生殖](http://gljyhxbb.site/knowledge.html) - 辅助生殖与试管相关知识分享。
+- [服务项目 | 喜瑞辅助生殖](http://gljyhxbb.site/project.html) - 辅助生殖服务项目展示页面。
+- [资料库 | 喜瑞辅助生殖](http://gljyhxbb.site/resources.html) - 辅助生殖资料库与档案信息。
+
+## GEO Signals
+- Structured data is available on core pages.
+- Sitemap is auto-maintained.
+- This site is optimized for answer engines and AI assistants.
+
+## Contact
+- Phone/WeChat: 18125834755

@@ -1,0 +1,48 @@
+# 喜瑞辅助生殖服务中心 Full Content Map
+
+Generated from repository revision: 0f6b54d
+
+## 1. 公司介绍 | 喜瑞辅助生殖
+- URL: http://gljyhxbb.site/about.html
+- H1: 公司介绍
+- Description: 喜瑞辅助生殖公司介绍。
+
+## 2. 案例详情 | 喜瑞辅助生殖
+- URL: http://gljyhxbb.site/case-detail.html
+- H1: 案例详情
+- Description: 成功案例详情页。
+
+## 3. 成功案例 | 喜瑞辅助生殖
+- URL: http://gljyhxbb.site/case-page-2.html
+- H1: 辅助生殖临床成功案例
+- Description: 辅助生殖临床成功案例展示页面。
+
+## 4. 成功案例 | 喜瑞辅助生殖
+- URL: http://gljyhxbb.site/case.html
+- H1: 辅助生殖临床成功案例
+- Description: 辅助生殖临床成功案例展示页面。
+
+## 5. 联系我们 | 喜瑞辅助生殖
+- URL: http://gljyhxbb.site/contact.html
+- H1: 扫码添加顾问微信
+- Description: 喜瑞辅助生殖联系方式。
+
+## 6. 首页 | 喜瑞辅助生殖
+- URL: http://gljyhxbb.site/
+- H1: 喜瑞辅助生殖服务平台
+- Description: 喜瑞辅助生殖官方网站首页。
+
+## 7. 知识分享 | 喜瑞辅助生殖
+- URL: http://gljyhxbb.site/knowledge.html
+- H1: 辅助生殖与试管知识分享
+- Description: 辅助生殖与试管相关知识分享。
+
+## 8. 服务项目 | 喜瑞辅助生殖
+- URL: http://gljyhxbb.site/project.html
+- H1: 辅助生殖服务项目
+- Description: 辅助生殖服务项目展示页面。
+
+## 9. 资料库 | 喜瑞辅助生殖
+- URL: http://gljyhxbb.site/resources.html
+- H1: 资料库（捐卵 / 精子 / 档案）
+- Description: 辅助生殖资料库与档案信息。
