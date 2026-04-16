@@ -18,11 +18,35 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "MedicalBusiness",
-        "name": "喜瑞辅助生殖服务中心",
-        "url": "http://gljyhxbb.site/",
-        "description": "跨境辅助生殖服务，包含服务项目、成功案例、知识分享与资料库。",
-        "telephone": "+86-18125834755"
+        "@graph": [
+          {
+            "@type": "MedicalBusiness",
+            "@id": "http://gljyhxbb.site/#organization",
+            "name": "喜瑞辅助生殖服务中心",
+            "url": "http://gljyhxbb.site/",
+            "description": "跨境辅助生殖服务，包含服务项目、成功案例、知识分享与资料库。",
+            "telephone": "+86-18125834755"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "http://gljyhxbb.site/#website",
+            "url": "http://gljyhxbb.site/",
+            "name": "喜瑞辅助生殖服务平台",
+            "description": "格鲁吉亚辅助生殖服务信息站点，含案例、知识分享与资料库。",
+            "publisher": {
+              "@id": "http://gljyhxbb.site/#organization"
+            },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "http://gljyhxbb.site/?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            },
+            "inLanguage": "zh-CN"
+          }
+        ]
       }
     </script>
   </head>
